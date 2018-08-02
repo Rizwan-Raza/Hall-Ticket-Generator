@@ -1,0 +1,144 @@
+body {
+	position: relative;
+}
+.navbar {
+	border-radius: 0px;
+}
+.modal-header, .modal h4, .modal .close {
+	background-color: #5cb85c;
+	color:white !important;
+	text-align: center;
+	font-size: 30px;
+}
+.modal-footer {
+	background-color: #f9f9f9;
+}
+a.btn_link {
+	text-decoration: none;
+}
+.card {
+	box-shadow: 0px 0px 10px #000;
+	border: 2px solid #000;
+    outline: 1px solid #000;
+    outline-offset: -8px;
+    padding: 30px;
+}
+.user {
+	height: 200px;
+	width: 150px;
+	border: 1px solid #000;
+    outline: 1px solid #000;
+    outline-offset: 3px;
+    background-size: cover;
+    background-position: center;
+}
+#user-pic {
+	height: 200px;
+	width: 150px;	
+}
+.signature {
+	height: 50px;
+	width: 150px;
+    background-size: cover;
+    background-position: center;
+}
+.user-sign {
+	height: 50px;
+	width: 150px;	
+}
+.close-box {
+	border: 1px solid #000;
+}
+.text-bold {
+	font-weight: bold;
+}
+.dotted-bottom {
+	border-bottom: 1px dotted #000;
+}
+.dashed-bottom {
+	border-bottom: 1px dashed #000;
+}
+.posrel {
+	position: relative;
+}
+.posabs {
+	position: absolute;
+	left: 50%;
+	margin-left: -75px;
+	top: 0px;
+}
+.posabs-1 {
+	z-index: 1;
+}
+.posabs-2 {
+	z-index: 2;
+}
+.posrel-1 {
+	height: 200px;
+}
+.posrel-2 {
+	height: 50px;
+}
+.footer-controller {
+	height: 70px;
+}
+footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-color: #222;
+	border-color: #080808;
+	/*margin-top: 20px;*/
+	color: #9d9d9d;
+	line-height: 50px;
+	vertical-align: middle;
+	height: 50px;
+}
+footer a {
+	color: #9d9d9d;
+}
+footer a:hover {
+	color: #ffffff;
+}
+@media all and (max-width: 992px) {
+    #jmi-logo {
+        height: 70px;
+    }
+    .card {
+    	font-size: 12px;
+    }
+    h3 {
+    	font-size: 18px;
+    	font-weight: bold;
+    	margin: 0px;
+    }
+    h4 {
+    	font-size: 16px;
+    	font-weight: bold;
+    	margin: 5px;
+    }
+    #sign-controller {
+    	height: 70px;
+    }
+    .user, #user-pic {
+    	width: 112px;
+    	height: 150px;
+    	left: 50%;
+    	margin-left: -56px;
+    	/*margin: 0px auto;*/
+    }
+    .signature, .user-sign {
+    	width: 112px;
+    	height: 37px;
+    	left: 50%;
+    	margin-left: -56px;
+    	/*margin: 0px auto;*/
+    }
+    .posrel-1 {
+    	height: 150px;
+    }
+    .posrel-2 {
+    	height: 37px;
+    }
+}
